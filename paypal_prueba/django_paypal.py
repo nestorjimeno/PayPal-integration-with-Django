@@ -4,10 +4,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-PAYPAL_CLIENT_ID = os.getenv("PAYPAL_CLIENT_ID")
-PAYPAL_CLIENT_SECRET = os.getenv("PAYPAL_CLIENT_SECRET")
-PORT = os.getenv("PORT", 8888)
-
 base = "https://api-m.sandbox.paypal.com"
 
 
