@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PayPal JS SDK Standard Integration</title>
+  </head>
+  <body>
+    <h1>Prueba de carrito</h1>
+    <div id="paypal-button-container"></div>
+    <p id="result-message"></p>
+    <!-- Replace the "test" client-id value with your client-id -->
+    <!-- 
+    <script>
+        const productDataFromTemplate = {{ product_data|safe }};
+    </script>
+    -->
+    <script src="https://www.paypal.com/sdk/js?client-id={{ client_id }}&currency=USD"></script>
+    <script src="{% static 'js/app.js' %}"></script>
+  </body>
+</html>

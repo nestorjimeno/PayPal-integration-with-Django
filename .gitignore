@@ -1,0 +1,7 @@
+__pycache__
+Lib
+migrations
+.env
+db.sqlite3
+pyvenv.cfg
+Scripts
